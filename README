@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Tie-Scalar-Epoch,
-version 0.001:
+version 0.002:
 
   Create a scalar that always returns the number
 of seconds since the epoch.

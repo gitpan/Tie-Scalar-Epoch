@@ -3,7 +3,6 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-README.pod
 dist.ini
 lib/Tie/Scalar/Epoch.pm
 t/Tie-Scalar-Epoch.t
