@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Create a scalar that always returns the number\nof seconds since the epoch.",
+  "ABSTRACT" => "Create a scalar that always returns the number \nof non-leap seconds since whatever time the system considers to be the epoch.",
   "AUTHOR" => "Victor Houston <vichou\@cpan.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Tie::Scalar::Epoch",
   "PREREQ_PM" => {},
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

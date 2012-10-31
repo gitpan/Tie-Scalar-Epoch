@@ -1,10 +1,10 @@
 
 
 This archive contains the distribution Tie-Scalar-Epoch,
-version 0.002:
+version 0.003:
 
-  Create a scalar that always returns the number
-of seconds since the epoch.
+  Create a scalar that always returns the number 
+of non-leap seconds since whatever time the system considers to be the epoch.
 
 This software is copyright (c) 2012 by Victor Houston.
 
